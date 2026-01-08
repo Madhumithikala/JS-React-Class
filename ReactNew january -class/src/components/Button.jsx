@@ -1,0 +1,10 @@
+import React from 'react'
+import './button.css'
+
+const Button = ({clickHandler, label}) => {
+  return (
+    <button onClick={clickHandler}>{label}</button>
+  )
+}
+
+export default Button

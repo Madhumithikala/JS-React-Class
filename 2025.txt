@@ -1,0 +1,49 @@
+Hooks:
+
+Hooks are 4 types:
+
+1)UseState
+->UseState to store any variale values
+->Storing the data
+String
+Number
+Boolean
+Etc..
+
+ 
+2)UseEffect:
+UseEffect()are used  two arguments one fun() and one Argument.
+
+Syntax:
+UseEffect(()=>{
+
+},[])
+
+3)UseReference:
+To dynamically render the data in virtual Dom level,
+its like document.getElementById in javascript.
+
+4)UseContext: 
+To share data to entire application related pages.
+
+React has 3 phases:
+1)Mount  
+2)Update
+3)un-mount
+
+
+Props drilling:
+ sharing data to one parent to the last children one by one.
+context API:
+direct access parent to child class used Context API.
+
+
+
+
+
+
+
+
+
+
+
